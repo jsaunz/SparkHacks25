@@ -18,9 +18,9 @@
         .circle {
             background-color: black;
             opacity: .6;
-            width: 300px;
-            height: 300px;  /* Adjust height to accommodate the text */
-            border-radius: 70%;
+            width: 600px;
+            height: 600px;  /* Adjust height to accommodate the text */
+            border-radius: 80%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -28,14 +28,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             position: absolute;
             top: 50px;  /* Adjust this value to move the circle up/down */
-            padding: 20px;
+            padding: 30px;
         }
 
         .circle h1 {
             color: white;
             font-family: Arial, sans-serif;
-            font-size: 20px;
-            margin: 0 0 10px 0;
+            font-size: 36px;  /* Larger font size to match the circle size */
+            margin: 0 0 20px 0;
         }
 
         .circle ul {
@@ -44,6 +44,11 @@
             list-style-position: inside;
             margin: 0;
             padding: 0;
+            font-size: 20px; /* Adjusted font size for proportionality */
+        }
+
+        .circle li {
+            margin-bottom: 10px; /* Space between list items */
         }
 
         .button-container {
@@ -69,31 +74,4 @@
             <li>Saturday - Sunday: Noon - 10pm</li>
         </ul>
     </div>
-
-    <br>
-
-    <h3 style="text-align: center; color: navy"><strong>Good Eats Guide</strong></h3>
-    <div class="button-container">
-        <a href="Chick-fil-a.html">
-            <button>Chick-fil-a</button>
-        </a>
-        <a href="PandaExpress.html">
-            <button>Panda Express</button>
-        </a>
-        <a href="moes.html">
-            <button>Moes</button>
-        </a>
-    </div>
-    <br>
-    <div class="button-row">
-        <a href="subway.html">
-            <button>Subway</button>
-        </a>
-        <a href="HalalShack.html">
-            <button>Halal Shack</button>
-        </a>
-    </div>
-    
-    <br>
-
 </body>
